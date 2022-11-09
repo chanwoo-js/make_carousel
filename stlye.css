@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {   background-color: black;}
+
+.carousel {
+    height: 600px;
+}
+
+.slide_list_set {
+    height: 600px;
+    position: relative;
+}
+.slide_list {   
+    height: 600px;
+    position: absolute;
+    inset: 0;
+}
+
+.slide_img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width : 1000px) {
+    .carousel {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
